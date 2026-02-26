@@ -273,7 +273,7 @@ This div element has position: static;
 </body>
 </html>
 
-# Practical no:-3
+# Practical no:-4
 
 Incorporate advanced HTML elements
 • Embed media using <audio>, <video>, and <embed>
@@ -1342,7 +1342,7 @@ STEP 3: Database Connection File
 Create db.php
 
 <?php
-$conn = mysqli_connect("localhost", "root", "", "college_db");
+$conn = mysqli_connect("localhost", "root", "", "college_db;");
 
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
